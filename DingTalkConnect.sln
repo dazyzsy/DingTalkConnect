@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore.Authentication.DingTalk", "src\AspNetCore.Authentication.DingTalk\AspNetCore.Authentication.DingTalk.csproj", "{D10AEE8A-0DF3-4066-8D33-006AFFC6DB95}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCore.Authentication.DingTalk", "src\AspNetCore.Authentication.DingTalk\AspNetCore.Authentication.DingTalk.csproj", "{D10AEE8A-0DF3-4066-8D33-006AFFC6DB95}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5BC1903A-C3B4-4928-81CD-D8F85635F159}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{DF40EC59-CA8B-4C91-9632-1F5E111D154B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleApp", "samples\SampleApp\SampleApp.csproj", "{3600DBD4-4175-4D75-BAE5-8E79130A2A85}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +21,17 @@ Global
 		{D10AEE8A-0DF3-4066-8D33-006AFFC6DB95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D10AEE8A-0DF3-4066-8D33-006AFFC6DB95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D10AEE8A-0DF3-4066-8D33-006AFFC6DB95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3600DBD4-4175-4D75-BAE5-8E79130A2A85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3600DBD4-4175-4D75-BAE5-8E79130A2A85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3600DBD4-4175-4D75-BAE5-8E79130A2A85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3600DBD4-4175-4D75-BAE5-8E79130A2A85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D10AEE8A-0DF3-4066-8D33-006AFFC6DB95} = {5BC1903A-C3B4-4928-81CD-D8F85635F159}
+		{3600DBD4-4175-4D75-BAE5-8E79130A2A85} = {DF40EC59-CA8B-4C91-9632-1F5E111D154B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6EE84721-ECF4-4E07-9381-668D0F794B85}
